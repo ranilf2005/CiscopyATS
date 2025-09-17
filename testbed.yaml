@@ -1,0 +1,27 @@
+testbed:
+  name: ios_iosxe_testbed
+
+devices:
+  iosv-0:
+    os: ios
+    type: router
+    connections:
+      defaults:
+        class: unicon.Unicon
+      cli:
+        protocol: ssh
+        ip: 192.168.30.182
+        username: admin
+        password: cisco123
+
+  csr1000v-0:
+    os: iosxe
+    type: router
+    connections:
+      defaults:
+        class: unicon.Unicon
+      cli:
+        protocol: ssh
+        ip: 192.168.30.183
+        username: admin
+        password: cisco123
