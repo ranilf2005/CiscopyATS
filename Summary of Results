@@ -1,0 +1,6 @@
+| Test   | Condition                      | Outcome |
+| ------ | ------------------------------ | ------- |
+| Ping   | Any router success rate < 100% | ❌ Fail  |
+| Ping   | Both routers = 100%            | ✅ Pass  |
+| Routes | Static routes not matching     | ❌ Fail  |
+| Routes | Static routes are identical    | ✅ Pass  |
